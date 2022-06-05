@@ -16,11 +16,6 @@ library(knitr)
 library(lubridate)
 ```
 
-## Loading and preprocessing the data
-
-
-
-## What is mean total number of steps taken per day?
 ### 1) Downloading and Importing the Data 
 
 First, we will download the dataset, if necessary.
@@ -152,10 +147,3 @@ ggplot(data=summary_days, aes(x=interval)) +
 There are some differences in the weekend and weekday data, most noticeably with
 the weekend data being more evenly distributed throughout the day and a smaller
 peak in the morning.
-
-
-
-
-
-
-
